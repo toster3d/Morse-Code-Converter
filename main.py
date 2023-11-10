@@ -14,7 +14,7 @@ def morse(user_word):
             return "Sorry, you should only enter Latin letters, numbers or some symbols (.'_:;?!–+/()=@)"
         else:
             output.append(data_dict[char])
-    return output
+    return ' '.join(output)
 
 
 print("This is a Morse code converter!")
