@@ -25,3 +25,8 @@ while converter_on:
     next_word = input("Do you want to convert the next word? (Enter yes/no):\n").upper()
     if next_word == 'NO':
         converter_on = False
+    while next_word != "YES" and next_word != "NO":
+        print('Please,type "yes" or "no"')
+        next_word = input("Do you want to convert the next word? (Enter yes/no):\n").upper()
+
+
