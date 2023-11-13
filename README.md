@@ -16,12 +16,12 @@ The Morse Code Converter program is a simple tool for transforming words into Mo
 
 - The program accepts only Latin letters, numbers, and some symbols.
 - For spaces in the text, the Morse code is "(space)".
-- 
+  
 ## Example Usage
 
 ```python
 python morse_code_converter.py
-```python
+```
 
 
 **Enter a word:** Hello
